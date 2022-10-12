@@ -1,6 +1,6 @@
 <script>
   import { flip } from 'svelte/animate'
-  import {store} from '$stores/store'
+  import {store} from '../stores/store.js'
   import { dndzone } from 'svelte-dnd-action'
   import Card from './Card.svelte'
 

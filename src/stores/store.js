@@ -1,4 +1,4 @@
-import { persistStore } from './persistStore'
+import { persistStore } from './persistStore.js'
 
 let uid = () => `_${Math.random().toString(35).substr(2, 9)}`
 

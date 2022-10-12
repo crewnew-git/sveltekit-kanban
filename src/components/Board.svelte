@@ -1,5 +1,5 @@
 <script>
-  import { addColumn } from '$stores/store'
+  import { addColumn } from '../stores/store.js'
 </script>
 
 <section>

@@ -1,7 +1,7 @@
 <script>
   import { flip } from 'svelte/animate'
   import Column from './Column.svelte'
-  import { store } from '$stores/store.js'
+  import { store } from '../stores/store.js'
 
   import { dndzone } from 'svelte-dnd-action'
   function handleDndConsiderColumns(e) {

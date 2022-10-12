@@ -1,5 +1,5 @@
 <script>
-  import { store, deleteColumn } from '$stores/store'
+  import { store, deleteColumn } from '../stores/store.js'
   import Cards from './Cards.svelte'
 
   function getNewCard() {

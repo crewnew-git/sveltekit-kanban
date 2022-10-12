@@ -1,5 +1,5 @@
 <script>
-  import { store } from '$stores/store'
+  import { store } from '../stores/store.js'
 
   function deleteCard(colIdx, id) {
       $store[colIdx].cards = $store[colIdx].cards.filter(card => card.id !== id)
